@@ -8,7 +8,10 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
-        loader: 'banel-loader'
+        loader: 'babel-loader',
+        query: {
+          compact: false
+        }
       }
     ]
   }
