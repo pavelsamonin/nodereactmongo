@@ -7,11 +7,12 @@ module.exports = {
   module: {
     loaders: [
       {
+        test: /\.json$/,
+        loader: 'json-loader'
+      },
+      {
         test: /\.js$/,
-        loader: 'babel-loader',
-        query: {
-          compact: false
-        }
+        loader: 'babel-loader'
       }
     ]
   }

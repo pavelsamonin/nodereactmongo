@@ -1,0 +1,24 @@
+{
+  "contests": [
+    {
+      "id": 1,
+      "categoryName": "Buiseness/Company",
+      "contestName": "Cognitive Building"
+    },
+    {
+      "id": 2,
+      "categoryName": "Magazine/Newspaper",
+      "contestName": "Educating people"
+    },
+    {
+      "id": 3,
+      "categoryName": "Software Component",
+      "contestName": "Big Data"
+    },
+    {
+      "id": 4,
+      "categoryName": "Website",
+      "contestName": "Free books"
+    }
+  ]
+}
